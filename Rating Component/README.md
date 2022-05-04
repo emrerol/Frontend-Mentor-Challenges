@@ -1,3 +1,12 @@
+### Rating seçme kısmı görsel olarak hazırlandı. Üzerinden devam edilecek
+### Tamamlanacak Eksiklikler
+- [ ] Gradient eklenecek
+- [ ] Yapı, verilen değerlere göre, responsive hale getirilecek
+- [ ] Rating tıklamaları jQuery ile çekilecek
+- [ ] Submit click eventi sonrasında çıkacak sayfa hazırlanacak.
+
+
+
 # Frontend Mentor - Interactive rating component
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
