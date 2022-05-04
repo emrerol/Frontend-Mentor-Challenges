@@ -23,6 +23,10 @@ p {
       text-align:left;
 }
 
+.rate-holder-container{
+      visibility: visible
+}
+
 .container{
       background-color: var(--myDarkBlue);
       width: 400px;
@@ -97,6 +101,48 @@ button {
 button:hover{
       background-color: var(--myWhite);
       color: var(--myOrange);
+}
+
+
+
+.thank-you-container {
+      visibility: hidden; 
+      background-color: var(--myDarkBlue);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.thank-you-image{
+      margin-top: 30px;
+}
+
+
+.rate-text-container{
+      background-color: var(--myMediumGrey);
+      width: 60%; 
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 15px;
+      font-weight: 300;
+      color: var(--myOrange);
+      border-radius: 25px;
+}
+
+
+.text-field{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin: 5px;
+}
+
+.text-field p {
+      text-align: center;
+      margin-top: 0;
 }
 
 .attribution {
