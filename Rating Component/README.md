@@ -3,7 +3,7 @@
 ### Tamamlanacak Eksiklikler
 
 - [ ] Yapı, verilen değerlere göre, responsive hale getirilecek
-- [ ] Rating tıklamaları çekilecek
+- [x] Rating tıklamaları çekilecek
 - [x] Submit click eventi sonrasında çıkacak sayfa hazırlanacak.
 
 # Frontend Mentor - Interactive rating component

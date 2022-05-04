@@ -29,6 +29,7 @@ p {
 
 .container{
       background-color: var(--myDarkBlue);
+      background: radial-gradient(circle at bottom, var(--myVeryDarkBlue), var(--myDarkBlue));
       width: 400px;
       height: 400px;
       position: absolute;
@@ -39,9 +40,7 @@ p {
       padding: 2rem;
 }
 
-.container .content-container{
-      background-color: var(--myDarkBlue);
-}
+
 
 .image-container {
       border-radius: 50%;
@@ -71,9 +70,6 @@ p {
 .rating:hover {
       background-color: var(--myLightGrey);
       color: var(--myWhite);
-}
-.rating:active{
-      background-color: var(--myOrange);
 }
 
 
@@ -112,6 +108,7 @@ button:hover{
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
 }
 
 .thank-you-image{
