@@ -9,17 +9,7 @@ let selectedRate;
 rateSelects.forEach((rating) => {
   rating.addEventListener("click", (e) => {
     e.target.style.backgroundColor = "#" + myOrange;
-    if (e.target.id === "1") {
-      selectedRate = e.target.innerText;
-    } else if (e.target.id === "2") {
-      selectedRate = e.target.innerText;
-    } else if (e.target.id === "3") {
-      selectedRate = e.target.innerText;
-    } else if (e.target.id === "4") {
-      selectedRate = e.target.innerText;
-    } else if (e.target.id === "5") {
-      selectedRate = e.target.innerText;
-    }
+    selectedRate = e.target.innerText;
   });
 });
 
