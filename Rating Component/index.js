@@ -15,27 +15,9 @@ const makeGray = () => {
 
 rateSelects.forEach((rating) => {
   rating.addEventListener("click", (e) => {
-    if (e.target.id === "1") {
       makeGray();
       selectedRate = e.target.innerText;
       e.target.style.backgroundColor = myOrange;
-    } else if (e.target.id === "2") {
-      makeGray();
-      selectedRate = e.target.innerText;
-      e.target.style.backgroundColor = myOrange;
-    } else if (e.target.id === "3") {
-      makeGray();
-      selectedRate = e.target.innerText;
-      e.target.style.backgroundColor = myOrange;
-    } else if (e.target.id === "4") {
-      makeGray();
-      selectedRate = e.target.innerText;
-      e.target.style.backgroundColor = myOrange;
-    } else if (e.target.id === "5") {
-      makeGray();
-      selectedRate = e.target.innerText;
-      e.target.style.backgroundColor = myOrange;
-    }
   });
 });
 
